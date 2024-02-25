@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  color: aqua;
+font-style: italic;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f1f1f1;
+}
+
+#navbar li a {
+  display: block;
+  color: #333;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar li a.active {
+  background-color: #4caf50;
+  color: white;
+}
